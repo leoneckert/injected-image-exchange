@@ -47,7 +47,7 @@ import random
 
 #the 'admin' ip address belongs to the computer that is used to display the admin monitor. 
 #the admin computer has to be connected to the PI's network and open the "admin-page.html" locally.
-admin_ip = "192.168.42.10"
+admin_ip = ""
 
 #specify width and height conditions for the images that should be detected
 min_img_width = 400
