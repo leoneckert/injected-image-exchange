@@ -7,9 +7,11 @@ The project came to life as part of Adam Harvey's 'Stratosphere of Surveillance'
 IIE is a project by Leon Eckert and Joakim Quach
 
 ---
+
 Injected Image Exchange (IIE) is meant to provoke questions. We envision participants to connect to the router, knowing what it does, but expect them not to keep that in mind at all times while browsing.
 Oftentimes, the effects of the image injections are subtle, only shifting the meaning of news headlines and comments ever so slightly. At other times, changes are more obvious and extreme or show private images one is clearly not meant to see - however the realisation lies near that it is a trade-off: if I see other people’s data instead of mine, I am giving my data away at the same time, not knowing to whom.
 How does this alter a user’s behaviour? And how quickly do they forget that they are being surveilled? In how far is IIE different from every other router? Which gates does our re- quests and information pass before we get a response?
+
 ---
 <b>useful tutorial, references and inspirational projects:</b>
 
@@ -26,7 +28,7 @@ Newstweek by Julian Oliver and Daniil Vasiliev: http://newstweek.com
 Honeypot Router by Peter B Marks : http://blog.marxy.org/2013/08/reverse-engineering-network-traffic.html
 
 ---
-<br>description</b><br>
+<b>description</b><br>
 It consists of a Raspberry Pi turned router, connected to a 'real' network via Ethernet and visible to other devices via a Wifi Dongle. On the Pi/the router the mitmproxey (to be found here: https://github.com/mitmproxy/mitmproxy) is installed and crucial part to the project. Mitmproxy allows to scan all traffic passing through the router, inspect the http requets, manipulate them, retrieving information from the internet, and return a request back to the original client. 
 
 <b>*image exchange (main script)</b><br>
@@ -51,8 +53,6 @@ spotify (on the phone, exchanges album covers)
 ----
 
 
-
-----
 
 <b>things to explore in the future:</b>
 
