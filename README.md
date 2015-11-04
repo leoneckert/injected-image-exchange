@@ -5,6 +5,7 @@ Injected Image Exchange is a project that builds upon the amazing mitmproxy (htt
 The project came to life as part of Adam Harvey's 'Stratosphere of Surveillance' class at ITP, NYU. 
 
 IIE is a project by Leon Eckert and Joakim Quach
+
 ---
 <b>useful tutorial, references and inspirational projects:</b>
 
