@@ -9,7 +9,7 @@ IIE is a project by Leon Eckert and Joakim Quach
 ---
 
 <b>description</b><br>
-It consists of a Raspberry Pi turned router, connected to a 'real' network via Ethernet and visible to other devices via a Wifi Dongle. On the Pi/the router the mitmproxey (to be found here: https://github.com/mitmproxy/mitmproxy) is installed and crucial part to the project. Mitmproxy allows to scan all traffic passing through the router, inspect the http requets, manipulate them, retrieving information from the internet, and return a request back to the original client. 
+It consists of a Raspberry Pi turned router, connected to a 'real' network via Ethernet and visible to other devices via a Wifi Dongle. On the Pi/the router, mitmproxy (to be found here: https://github.com/mitmproxy/mitmproxy) is installed and crucial part to the project. Mitmproxy allows to scan all traffic passing through the router, inspect the http requets, manipulate them, retrieving information from the internet, and return a request back to the original client. 
 
 <b>*image exchange (main script)</b><br>
 At 'manipulating them' is where this project intervenes through two python scripts. One script (exchange_imgs.py)is specified to catch requests for images that match a certain resolution criteria and stores them in
