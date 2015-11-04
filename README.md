@@ -40,6 +40,8 @@ How does this alter a user’s behaviour? And how quickly do they forget that th
 
 most importantly and a thousand thanks to mitmproxy: https://github.com/mitmproxy/mitmproxy
 
+we got help, important creative input and conceptual guidance from Adam Harvey: http://ahprojects.com
+
 setting up a raspberry pi as a router as seen in this adafruit tutorial: https://learn.adafruit.com/downloads/pdf/setting-up-a-raspberry-pi-as-a-wifi-access-point.pdf
 
 Working with a Raspberry Pi for network attacks by Jesse Lauwers : http://jesselauwers.github.io/Raspberry-Pi-Kali-MITM/
