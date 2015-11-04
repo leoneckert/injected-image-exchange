@@ -5,7 +5,7 @@ Injected Image Exchange is a project that builds upon the amazing mitmproxy (htt
 The project came to life as part of Adam Harvey's 'Stratosphere of Surveillance' class at ITP, NYU. 
 
 ---
-useful tutorial, references and inspirational projects:
+<b>useful tutorial, references and inspirational projects:</b>
 
 most importantly and a thousand thanks to mitmproxy: https://github.com/mitmproxy/mitmproxy
 
