@@ -20,14 +20,14 @@ In practice, the images on the site you visit, will be swapped with other images
 <b>*admin monitor</b><br>
 The project includes an “admin” monitor showing all the images that are stored in the dictionary at any given time. The main script constantly updated a csv file with all the image urls that are currently "up for grab"/ have not yet been returned to users. A second script (redirect_admin.py) runs, when a client visits "openwifi.com" (openwifi is the name of the network) on which it hosts the list of url. The admin then opens the html file (admin_page.html) locally which pulls the url from openwifi.com and presents them on a "admin page". This feature is meant for installation purposes, but also has other uses we want to explore in the future. 
 
-The image exchange, as of now, only works for http requests. Here are some sites we tried mostly or were surprised by the fact they are working during sessions:
+The image exchange, as of now, only works for http requests. Here are some sites we tried mostly or were surprised by the fact they are working during sessions:<br><br>
 
-nytimes.com
-economist.com
-...most news sites
-instagram (in the phone app)
-spotify (on the phone, exchanges album covers)
-...
+nytimes.com<br>
+economist.com<br>
+...most news sites<br>
+instagram (in the phone app)<br>
+spotify (on the phone, exchanges album covers)<br>
+...<br>
 
 ---
 
