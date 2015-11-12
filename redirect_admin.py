@@ -71,8 +71,3 @@ def request(context, flow):
             ODictCaseless([["Content-Type", "text/html"]]),
             links)
         flow.reply(resp)
-
-    # Method 2: Redirect the request to a different server
-    if flow.request.pretty_host(hostheader=True).endswith("example.org"):
-        flow.request.host = "mitmproxy.org"
-        flow.request.update_host_header()
